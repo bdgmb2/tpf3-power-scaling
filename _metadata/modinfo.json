@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "name": "catcherben",
+            "role": "CREATOR"
+        }
+    ],
+    "description": "Source Code: https://github.com/bdgmb2/tpf3-power-scaling\n\nScales the engine/tractive power of every vehicle in the game based on a slider in the mod settings.\n\nIMPORTANT: Click the 'Gear' icon on the mod to set the power for each kind of vehicle in the mod menu or nothing will happen! Mods cannot change this in-game, you MUST do this before loading a game.\n\nYou can also choose whether tractive effort (pulling force at low speed) is scaled together with power.\n\nAchievements are disabled while the mod is active.\n\nAI was not used in the making of this mod. Like, look at the cover image!",
+    "localization": {
+        "de": {
+            "description": "(automatisch übersetzt) Quellcode: https://github.com/bdgmb2/tpf3-power-scaling\n\nPasst die Motor- bzw. Zugkraft aller Fahrzeuge im Spiel basierend auf einem Schieberegler in den Mod-Einstellungen an.\n\nWICHTIG: Klicke im Mod-Menü auf das Zahnrad-Symbol der Mod, um die Leistung für die jeweiligen Fahrzeugtypen festzulegen – andernfalls passiert nichts! Mods können dies nicht während des laufenden Spiels ändern; du musst die Einstellung vor dem Laden eines Spielstands vornehmen.\n\nZudem kannst du wählen, ob die Zugkraft (Kraftentwicklung bei niedriger Geschwindigkeit) gemeinsam mit der Leistung skaliert werden soll.\n\nErfolge (Achievements) sind deaktiviert, solange die Mod aktiv ist.",
+            "name": "Fahrzeugleistung konfigurieren",
+            "summary": "Skaliert die Leistung aller Fahrzeuge je Fahrzeugtyp."
+        }
+    },
+    "name": "Vehicle Power Scaling",
+    "summary": "Scales the power of all vehicles per vehicle type.",
+    "tags": [
+        "Script Mod"
+    ],
+    "url": "https://github.com/bdgmb2/tpf3-power-scaling"
+}

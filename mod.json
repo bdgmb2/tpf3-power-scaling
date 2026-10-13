@@ -1,0 +1,167 @@
+{
+    "dependencies": null,
+    "incompatibilities": null,
+    "modId": "vehicle_power_config_1",
+    "options": null,
+    "params": [
+        {
+            "key": "power_road",
+            "name": "Road vehicle power",
+            "tooltip": "Scales engine power of buses, trucks, trams and cars",
+            "uiType": "Slider",
+            "values": [
+                "0.25x",
+                "0.5x",
+                "0.75x",
+                "1x",
+                "1.25x",
+                "1.5x",
+                "2x",
+                "3x",
+                "4x",
+                "6x",
+                "8x"
+            ],
+            "numbers": [
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25,
+                1.5,
+                2.0,
+                3.0,
+                4.0,
+                6.0,
+                8.0
+            ],
+            "defaultIndex": 3
+        },
+        {
+            "key": "power_rail",
+            "name": "Rail vehicle power",
+            "tooltip": "Scales engine power of locomotives and powered units",
+            "uiType": "Slider",
+            "values": [
+                "0.25x",
+                "0.5x",
+                "0.75x",
+                "1x",
+                "1.25x",
+                "1.5x",
+                "2x",
+                "3x",
+                "4x",
+                "6x",
+                "8x"
+            ],
+            "numbers": [
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25,
+                1.5,
+                2.0,
+                3.0,
+                4.0,
+                6.0,
+                8.0
+            ],
+            "defaultIndex": 3
+        },
+        {
+            "key": "power_water",
+            "name": "Ship power",
+            "tooltip": "Scales engine power of ships",
+            "uiType": "Slider",
+            "values": [
+                "0.25x",
+                "0.5x",
+                "0.75x",
+                "1x",
+                "1.25x",
+                "1.5x",
+                "2x",
+                "3x",
+                "4x",
+                "6x",
+                "8x"
+            ],
+            "numbers": [
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25,
+                1.5,
+                2.0,
+                3.0,
+                4.0,
+                6.0,
+                8.0
+            ],
+            "defaultIndex": 3
+        },
+        {
+            "key": "power_air",
+            "name": "Aircraft power",
+            "tooltip": "Scales thrust of airplanes and helicopters",
+            "uiType": "Slider",
+            "values": [
+                "0.25x",
+                "0.5x",
+                "0.75x",
+                "1x",
+                "1.25x",
+                "1.5x",
+                "2x",
+                "3x",
+                "4x",
+                "6x",
+                "8x"
+            ],
+            "numbers": [
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25,
+                1.5,
+                2.0,
+                3.0,
+                4.0,
+                6.0,
+                8.0
+            ],
+            "defaultIndex": 3
+        },
+        {
+            "key": "tractive_effort",
+            "name": "Tractive effort",
+            "tooltip": "Whether starting tractive effort is scaled together with power",
+            "uiType": "ComboBox",
+            "values": [
+                "Keep original",
+                "Scale with power"
+            ],
+            "numbers": [
+                0.0,
+                1.0
+            ],
+            "defaultIndex": 1
+        }
+    ],
+    "postRunScript": {
+        "fileName": "vehicle_power_config_1::/mod.script@postRunFn"
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "Warning",
+    "severityRemove": "Warning"
+}
